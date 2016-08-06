@@ -1,0 +1,27 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    name:
+        label: Name
+        type: text
+        searchable: true
+    alias:
+        label: Alias
+        type: text
+        searchable: true
+    description:
+        label: Description
+        type: text
+        searchable: true
+    color:
+        label: Color
+        type: partial
+        path: ~/plugins/mail/maildemo/models/lists/_color_list.htm
+
+
+

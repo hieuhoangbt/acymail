@@ -1,0 +1,35 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+    name:
+        label: Title
+        type: text
+    enable:
+        label: Enable
+        type: checkbox
+    startrule:
+        label: Start the campaign
+        type: dropdown
+        options:
+            0: When the user subscribers
+            1: The next Monday after user subscription
+            2: The next Tuesday after user subscription
+            3: The next Wednesday after user subscription
+            4: The next Thursday after user subscription
+            5: The next Friday after user subscription
+            6: The next Saturday after user subscription
+            7: The next Sunday after user subscription
+    description:
+            label: Description
+            type: richeditor
+tabs:
+    fields:
+        list:
+                tab: List
+                type: relation
+                nameFrom: name

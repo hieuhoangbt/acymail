@@ -1,0 +1,16 @@
+1.0.1: First version of MailDemo
+1.0.3:
+    - Create table user sucribers
+    - create_user_sucribers_table.php
+1.0.4:
+    - Create table list sub
+    - create_list_sub_table.php
+1.0.7:
+    - Create table mails
+    - create_mails_table.php
+1.0.8:
+    - Create list table
+    - create_lists_table.php
+1.0.9:
+    - Crete mail list table
+    - create_mail_lists_table.php

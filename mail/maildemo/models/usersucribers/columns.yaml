@@ -1,0 +1,21 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    name:
+        label: Name
+        type: text
+        searchable: true
+    email:
+        label: Email
+        type: text
+        searchable: true
+    subcription:
+        label: Subcription
+        type: partial
+        path: ~/plugins/mail/maildemo/models/usersucribers/_list_subcription.htm
+

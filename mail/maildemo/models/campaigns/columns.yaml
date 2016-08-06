@@ -1,0 +1,18 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    name:
+        label: Title
+        type: text
+    description:
+        label: Description
+        type: html
+    enable:
+        label: Enable
+        type: partial
+        path: ~/plugins/mail/maildemo/models/campaigns/_status_column.htm
