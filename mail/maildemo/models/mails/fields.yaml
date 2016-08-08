@@ -1,0 +1,36 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+    subject:
+        label: Subject
+        type: text
+    alias:
+        label: Alias
+        type: text
+    state:
+        label: Publish
+        type: checkbox
+    subject:
+        label: Subject
+        type: text
+    body:
+        label: HTML version
+        type: richeditor
+        size: large
+tabs:
+    fields:
+        list:
+                tab: List
+                type: relation
+                nameFrom: name
+        attach:
+                tab: Attachments
+                type: mediafinder
+                mode: file
+                mimeTypes: doc, docx, pdf, zip, rar, jpg, png, gif
+

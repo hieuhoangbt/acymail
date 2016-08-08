@@ -1,0 +1,24 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+    name:
+        label: Name
+        type: text
+    description:
+        label: Description
+        type: text
+    color:
+        label: Color
+        type: colorpicker
+    enable:
+        label: Enable
+        type: checkbox
+
+
+
+

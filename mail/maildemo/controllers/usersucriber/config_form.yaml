@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: User Sucriber
+
+# Model Form Field configuration
+form: $/mail/maildemo/models/usersucribers/fields.yaml
+
+# Model Class name
+modelClass: Mail\MailDemo\Models\UserSucribers
+
+# Default redirect location
+defaultRedirect: mail/maildemo/usersucriber
+
+# Create page
+create:
+    title: Create User Sucriber
+    redirect: mail/maildemo/usersucriber/update/:id
+    redirectClose: mail/maildemo/usersucriber
+
+# Update page
+update:
+    title: Edit User Sucriber
+    redirect: mail/maildemo/usersucriber
+    redirectClose: mail/maildemo/usersucriber
+
+# Preview page
+preview:
+    title: Preview User Sucriber

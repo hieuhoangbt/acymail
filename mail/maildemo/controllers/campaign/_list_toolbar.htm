@@ -1,0 +1,20 @@
+<style>
+    .control-toolbar{
+        font-size: 13px;
+    }
+</style>
+<div style="margin-bottom: 50px">
+    <ul class="nav nav-tabs nav-justified">
+        <li role="presentation"><a href="mail">Newsletter</a></li>
+        <li role="presentation"><a href="">Auto- Newsletter</a></li>
+        <li role="presentation" class="active"><a href="campaign">Campaign</a></li>
+        <li role="presentation"><a href="">Template</a></li>
+    </ul>
+</div>
+<div data-control="toolbar">
+    <a
+        href="<?= Backend::url('mail/maildemo/campaign/create') ?>"
+        class="btn btn-primary oc-icon-plus">
+        New Campaign
+    </a>
+</div>

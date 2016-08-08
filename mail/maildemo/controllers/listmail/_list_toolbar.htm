@@ -1,0 +1,24 @@
+<div data-control="toolbar">
+    <a
+            href="<?= Backend::url('mail/maildemo/listmail/create') ?>"
+            class="btn btn-primary oc-icon-plus">
+        New List Mail
+    </a>
+    <button
+            class="btn btn-default oc-icon-trash-o"
+            disabled="disabled"
+            id="remove_book"
+            onclick="$(this).data('request-data', {
+                    checked: $('.control-list').listWidget('getChecked')
+                })"
+            data-request="onDelete"
+            data-request-confirm="Are you sure delete record?"
+            data-trigger-action="enable"
+            data-trigger=".control-list input[type=checkbox]"
+            data-trigger-condition="checked"
+            data-request-success="$(this).prop('disabled', false)"
+            data-stripe-load-indicator>
+        Delete
+    </button>
+
+</div>

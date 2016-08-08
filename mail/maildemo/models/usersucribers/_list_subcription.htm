@@ -1,0 +1,11 @@
+<?php use Mail\MailDemo\Models\Lists; ?>
+<?php $color=Lists::getColor($record->id); ?>
+<div class="row">
+  <div class="col-md-4">
+      <?php if($color){
+       foreach($color as $key=>$value){
+      if($value !=null){?>
+        <div id="color" style="background-color: <?php echo $value; ?>; border-radius: 50%; width: 30px; height: 30px;display:inline-block"></div>
+      <?php }}} ?>
+  </div>
+</div>

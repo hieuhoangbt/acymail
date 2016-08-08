@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Campaign
+
+# Model Form Field configuration
+form: $/mail/maildemo/models/campaigns/fields.yaml
+
+# Model Class name
+modelClass: Mail\MailDemo\Models\Campaigns
+
+# Default redirect location
+defaultRedirect: mail/maildemo/campaign
+
+# Create page
+create:
+    title: Create Campaign
+    redirect: mail/maildemo/campaign/update/:id
+    redirectClose: mail/maildemo/campaign
+
+# Update page
+update:
+    title: Edit Campaign
+    redirect: mail/maildemo/campaign
+    redirectClose: mail/maildemo/campaign
+
+# Preview page
+preview:
+    title: Preview Campaign

@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: List Mail
+
+# Model Form Field configuration
+form: $/mail/maildemo/models/lists/fields.yaml
+
+# Model Class name
+modelClass: Mail\MailDemo\Models\Lists
+
+# Default redirect location
+defaultRedirect: mail/maildemo/listmail
+
+# Create page
+create:
+    title: Create List Mail
+    redirect: mail/maildemo/listmail/update/:id
+    redirectClose: mail/maildemo/listmail
+
+# Update page
+update:
+    title: Edit List Mail
+    redirect: mail/maildemo/listmail
+    redirectClose: mail/maildemo/listmail
+
+# Preview page
+preview:
+    title: Preview List Mail
